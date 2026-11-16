@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../media/logo.jpg" width=100px alt="Logo">
+            <h1>JAMAR ICT TRAINING</h1>
+        </div>
+        <nav>
+            <a href="">Home</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#courses">Courses</a>
+            <a href="#Timetable">Time Table</a>
+            <a href="#regsteps">Registration</a>
+        </nav>
+    </header>
+    <section class="aboutus" id="aboutus">
+        <div class="text"> 
+            <p><b>About Us</b></p><br>
+            <p>JAMAR ICT Training Centre is a dedicated vocational and technology 
+            hub committed to bridging the digital divide by equipping students, 
+            professionals, and community members with essential computing and technical skills. 
+            Focused on practical, hands-on learning, the centre provides modern computer laboratories, 
+            reliable internet access, and structured courses ranging from basic digital literacy and 
+            office productivity to advanced networking, software applications, and hardware maintenance. 
+            By fostering an inclusive and supportive learning environment, 
+            the institution empowers individuals to navigate an increasingly 
+            technology-driven economy with confidence.
+            </p><br>
+            <p>Beyond foundational instruction,Jamar ICT Training Centre emphasizes career readiness, innovation, and community empowerment. 
+            Through experienced instructors and industry-aligned curricula, learners gain real-world problem-solving 
+            abilities that enhance their employability and entrepreneurial potential. Whether preparing young people for 
+            their first roles in the tech sector or helping established professionals upgrade their digital competencies, 
+            the centre serves as a vital catalyst for personal growth and regional technological advancement
+            </p>
+
+        </div>
+        <div class="pic">
+            <img src="../media/pic.jpg" alt="ICT Training activities">
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <div class="trainingprogs">
+    <h2>Training Programmes Offered</h2>
+    <ol>
+        <li>
+            <b>Web Designing</b>
+            <p>HTML, CSS, and responsive layout fundamentals.</p>
+            <a href="#form" class="reg-btn">Register Now</a>
+        </li>
+
+        <li>
+            <b>Computer Networking</b>
+            <p>LAN/WAN setup, routing, switching, and troubleshooting.</p>
+        </li>
+
+        <li>
+            <b>Database Management</b>
+            <p>Relational databases, SQL queries, and data security.</p>
+        </li>
+
+        <li>
+            <b>Cyber Security</b>
+            <p>System protection, threat detection, and safe online practices.</p>
+        </li>
+    </ol>
+</div>
+
+                                
+        
+
+        <div class="regsteps" id="regsteps">
+            <h2>How to Register</h2>
+            <ul>
+                <li>Access the Website</li>
+                <li>Click Register Now</li>
+                <li>Fill in the form provided</li>
+                <li>Submit</li>
+            </ul>
+        </div>
+        <div class="Timetable" id="Timetable">
+            <h2>Time Table</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>course</th>
+                    <th>Time</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Web Designing</td>
+                    <td>9:00am - 12:00pm</td>
+                    <td>Mr. Alinaitwe Rogers</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Computer Networking</td>
+                    <td>9:00am - 12:00pm</td>
+                    <td>Mrs. Atugonza Lydia</td> 
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Database Management</td>
+                    <td>9:00am - 12:00pm</td>
+                    <td>Mr. Tumusiime Brian</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Cyber Security</td>
+                    <td>9:00am - 12:00pm</td>
+                    <td>Mrs. Wembabazi Mariam</td>           
+            </table>
+        </div>
+        <div class="form" id="form">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br><br>
+
+                <label for="studyMode">Study Mode:</label>
+                <label for="online">Online</label>
+                <input type="radio" value="Online" id="online" name="studyMode" required>
+                <label for="physical">Physical</label>
+                <input type="radio" value="Physical" id="physical" name="studyMode" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="course">Preferred Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="Web Designing">Web Designing</option>
+                    <option value="Computer Networking">Computer Networking</option>
+                    <option value="Database Management">Database Management</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                </select><br><br>
+                <label for="comments">Additional Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <a href="#" class="back-to-top">↑ Top</a>
+    </section>
+
+    <footer>
+         <p>&copy; 2026 JAMAR ICT Training Centre</p>
+    </footer>
+
+</body>
+</html>
